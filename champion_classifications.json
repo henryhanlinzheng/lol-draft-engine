@@ -1,0 +1,3862 @@
+{
+  "metadata": {
+    "description": "League of Legends Champion Classifications",
+    "version": "25.18",
+    "last_updated": "09-13-2025",
+    "classification_system": {
+      "lanes": {
+        "description": "Primary lane assignment with flex options noted",
+        "values": ["Top", "Jungle", "Mid", "ADC", "Support"]
+      },
+      "playstyle": {
+        "description": "What the champion can do and how they play",
+        "categories": {
+          "role": ["Tank", "Fighter", "Mage", "Marksman", "Assassin", "Support"],
+          "damage": ["AD", "AP"],
+          "combat_style": ["Skirmish", "Teamfight", "Pick", "Split_Push", "Protect", "Engage", "Poke", "Burst"],
+          "attributes": ["Mobility", "Range", "CC", "Scaling", "Global", "Mid_Game", "Sustain"]
+        }
+      },
+      "synergies": {
+        "description": "What they benefit from or want around them",
+        "types": ["Teamfight", "Engage", "Pick", "Protect", "Poke", "Skirmish", "Split_Push", "Burst", "Mobility", "Range", "CC", "Global", "Scaling", "Mid_Game", "Sustain"]
+      },
+      "counters": {
+        "description": "What they are vulnerable to or need to avoid",
+        "types": ["Teamfight", "Engage", "Pick", "Protect", "Poke", "Skirmish", "Split_Push", "Burst", "Mobility", "Range", "CC", "Global", "Scaling", "Mid_Game", "Sustain"]
+      }
+    }
+  },
+  "champions": {
+    "aatrox": {
+      "name": "Aatrox",
+      "lanes": {
+        "primary": "Top",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Fighter"],
+        "damage": ["AD"],
+        "combat_style": ["Teamfight"],
+        "attributes": ["Scaling", "Sustain"]
+      },
+      "synergies": [
+        "Teamfight",
+        "Engage",
+        "CC"
+      ],
+      "counters": [
+        "Mobility",
+        "Range",
+        "CC",
+        "Mid_Game"
+      ]
+    },
+    "ahri": {
+      "name": "Ahri",
+      "lanes": {
+        "primary": "Mid",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Mage", "Assassin"],
+        "damage": ["AP"],
+        "combat_style": ["Pick", "Engage", "Burst", "Skirmish"],
+        "attributes": ["Mobility", "CC", "Mid_Game"]
+      },
+      "synergies": [
+        "Pick",
+        "Engage",
+        "Mobility",
+        "Skirmish"
+      ],
+      "counters": [
+        "CC",
+        "Tank",
+        "Burst",
+        "Sustain"
+      ]
+    },
+    "akali": {
+      "name": "Akali",
+      "lanes": {
+        "primary": "Mid",
+        "flex": ["Top"]
+      },
+      "playstyle": {
+        "role": ["Assassin"],
+        "damage": ["AP"],
+        "combat_style": ["Burst", "Pick", "Skirmish"],
+        "attributes": ["Mid_Game","Mobility", "Burst"]
+      },
+      "synergies": [
+        "Engage",
+        "Pick",
+        "Mobility"
+      ],
+      "counters": [
+        "CC",
+        "Tank",
+        "Range"
+      ]
+    },
+    "akshan": {
+      "name": "Akshan",
+      "lanes": {
+        "primary": "Mid",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Marksman", "Assassin"],
+        "damage": ["AD"],
+        "combat_style": ["Pick", "Engage", "Skirmish"],
+        "attributes": ["Mobility", "Range", "Mid_Game"]
+      },
+      "synergies": [
+        "Pick",
+        "Skirmish",
+        "Engage"
+      ],
+      "counters": [
+        "Teamfight",
+        "Burst",
+        "CC"
+      ]
+    },
+    "alistar": {
+      "name": "Alistar",
+      "lanes": {
+        "primary": "Support",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Tank", "Support"],
+        "damage": ["AP"],
+        "combat_style": ["Engage", "Protect", "Teamfight", "Skirmish"],
+        "attributes": ["CC", "Sustain", "Mid_Game", "Scaling"]
+      },
+      "synergies": [
+        "Engage",
+        "Range",
+        "Teamfight"
+      ],
+      "counters": [
+        "CC",
+        "Range",
+        "Mobility",
+        "Poke"
+      ]
+    },
+    "ambessa": {
+      "name": "Ambessa",
+      "lanes": {
+        "primary": "Top",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Fighter", "Assassin"],
+        "damage": ["AD"],
+        "combat_style": ["Skirmish", "Pick"],
+        "attributes": ["Mobility", "Mid_Game"]
+      },
+      "synergies": [
+        "Engage",
+        "Pick",
+        "Skirmish"
+      ],
+      "counters": [
+        "CC",
+        "Range",
+        "Teamfight"
+      ]
+    },
+    "amumu": {
+      "name": "Amumu",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Tank"],
+        "damage": ["AP"],
+        "combat_style": ["Teamfight", "Engage"],
+        "attributes": ["CC", "Scaling"]
+      },
+      "synergies": [
+        "Teamfight",
+        "Engage",
+        "CC"
+      ],
+      "counters": [
+        "CC",
+        "Mobility",
+        "Range"
+      ]
+    },
+    "anivia": {
+      "name": "Anivia",
+      "lanes": {
+        "primary": "Mid",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Mage"],
+        "damage": ["AP"],
+        "combat_style": ["Teamfight", "Poke", "Protect"],
+        "attributes": ["CC", "Scaling"]
+      },
+      "synergies": [
+        "Teamfight",
+        "Poke",
+        "Protect",
+        "CC"
+      ],
+      "counters": [
+        "Mobility",
+        "Burst"
+      ]
+    },
+    "annie": {
+      "name": "Annie",
+      "lanes": {
+        "primary": "Mid",
+        "flex": ["Support"]
+      },
+      "playstyle": {
+        "role": ["Mage", "Assassin"],
+        "damage": ["AP"],
+        "combat_style": ["Teamfight", "Engage", "Burst"],
+        "attributes": ["CC", "Scaling", "Mid_Game"]
+      },
+      "synergies": [
+        "Teamfight",
+        "Engage",
+        "CC"
+      ],
+      "counters": [
+        "Mobility",
+        "Range"
+      ]
+    },
+    "aphelios": {
+      "name": "Aphelios",
+      "lanes": {
+        "primary": "ADC",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Marksman"],
+        "damage": ["AD"],
+        "combat_style": ["Teamfight"],
+        "attributes": ["Range", "Scaling", "CC"]
+      },
+      "synergies": [
+        "Teamfight",
+        "Protect",
+        "CC"
+      ],
+      "counters": [
+        "Mobility",
+        "Burst",
+        "Engage"
+      ]
+    },
+    "ashe": {
+      "name": "Ashe",
+      "lanes": {
+        "primary": "ADC",
+        "flex": ["Support"]
+      },
+      "playstyle": {
+        "role": ["Marksman", "Mage"],
+        "damage": ["AD"],
+        "combat_style": ["Pick", "Teamfight"],
+        "attributes": ["Range", "CC", "Global", "Scaling", "Mid_Game"]
+      },
+      "synergies": [
+        "Pick",
+        "Protect",
+        "Teamfight"
+      ],
+      "counters": [
+        "Mobility",
+        "Burst",
+        "Engage"
+      ]
+    },
+    "aurelion_sol": {
+      "name": "Aurelion Sol",
+      "lanes": {
+        "primary": "Mid",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Mage"],
+        "damage": ["AP"],
+        "combat_style": ["Teamfight", "Poke"],
+        "attributes": ["Range", "CC", "Scaling"]
+      },
+      "synergies": [
+        "Teamfight",
+        "Poke",
+        "Protect",
+        "CC"
+      ],
+      "counters": [
+        "Assassin",
+        "Burst",
+        "Pick",
+        "Mobility",
+        "Engage"
+      ]
+    },
+    "aurora": {
+      "name": "Aurora",
+      "lanes": {
+        "primary": "Mid",
+        "flex": ["Top"]
+      },
+      "playstyle": {
+        "role": ["Mage"],
+        "combat_style": ["Teamfight", "Skirmish", "Pick", "Burst"],
+        "attributes": ["Mobility", "Mid_Game", "Scaling"]
+      },
+      "synergies": [
+        "Teamfight",
+        "Skirmish",
+        "Pick"
+      ],
+      "counters": [
+        "Protect",
+        "Engage",
+        "Range"
+      ]
+    },
+    "azir": {
+      "name": "Azir",
+      "lanes": {
+        "primary": "Mid",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Mage"],
+        "damage": ["AP"],
+        "combat_style": ["Teamfight", "Poke"],
+        "attributes": ["Range", "Scaling", "CC"]
+      },
+      "synergies": [
+        "Teamfight",
+        "Poke",
+        "Protect"
+      ],
+      "counters": [
+        "Engage",
+        "Mobility"
+      ]
+    },
+    "bard": {
+      "name": "Bard",
+      "lanes": {
+        "primary": "Support",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Support"],
+        "damage": ["AP"],
+        "combat_style": ["Protect", "Pick", "Skirmish"],
+        "attributes": ["Mobility", "CC", "Global", "Scaling", "Mid_Game"]
+      },
+      "synergies": [
+        "Pick",
+        "Skirmish",
+        "Mobility"
+      ],
+      "counters": [
+        "Engage",
+        "Burst"
+      ]
+    },
+    "bel_veth": {
+      "name": "Bel'Veth",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Fighter"],
+        "damage": ["AD"],
+        "combat_style": ["Skirmish", "Teamfight", "Engage"],
+        "attributes": ["Mobility", "Scaling"]
+      },
+      "synergies": [
+        "Skirmish",
+        "Teamfight",
+        "CC"
+      ],
+      "counters": [
+        "Range",
+        "CC"
+      ]
+    },
+    "blitzcrank": {
+      "name": "Blitzcrank",
+      "lanes": {
+        "primary": "Support",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Tank", "Support"],
+        "combat_style": ["Pick", "Engage", "Skirmish"],
+        "attributes": ["CC", "Mid_Game"]
+      },
+      "synergies": [
+        "Pick",
+        "Engage",
+        "Burst"
+      ],
+      "counters": [
+        "Poke",
+        "Mobility",
+        "Tank",
+        "Range"
+      ]
+    },
+    "brand": {
+      "name": "Brand",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": ["Mid", "Support"]
+      },
+      "playstyle": {
+        "role": ["Mage"],
+        "damage": ["AP"],
+        "combat_style": ["Poke", "Teamfight"],
+        "attributes": ["Range", "CC", "Scaling"]
+      },
+      "synergies": [
+        "Teamfight",
+        "CC",
+        "Engage"
+      ],
+      "counters": [
+        "Mobility",
+        "Range"
+      ]
+    },
+    "braum": {
+      "name": "Braum",
+      "lanes": {
+        "primary": "Support",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Tank", "Support"],
+        "damage": ["AP"],
+        "combat_style": ["Protect", "Teamfight"],
+        "attributes": ["CC", "Mid_Game", "Scaling"]
+      },
+      "synergies": [
+        "Protect",
+        "Teamfight",
+        "Range"
+      ],
+      "counters": [
+        "Poke",
+        "Range",
+        "Mobility"
+      ]
+    },
+    "briar": {
+      "name": "Briar",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Fighter", "Assassin"],
+        "damage": ["AD"],
+        "combat_style": ["Skirmish", "Engage", "Pick"],
+        "attributes": ["Mobility", "CC", "Mid_Game", "Sustain", "Global"]
+      },
+      "synergies": [
+        "Skirmish",
+        "Pick",
+        "CC"
+      ],
+      "counters": [
+        "Range",
+        "CC",
+        "Teamfight"
+      ]
+    },
+    "caitlyn": {
+      "name": "Caitlyn",
+      "lanes": {
+        "primary": "ADC",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Marksman"],
+        "damage": ["AD"],
+        "combat_style": ["Poke", "Teamfight"],
+        "attributes": ["Range", "Mid_Game", "Scaling"]
+      },
+      "synergies": [
+        "Poke",
+        "Protect",
+        "CC"
+      ],
+      "counters": [
+        "Mobility",
+        "Skirmish",
+        "Engage"
+      ]
+    },
+    "camille": {
+      "name": "Camille",
+      "lanes": {
+        "primary": "Top",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Fighter"],
+        "damage": ["AD"],
+        "combat_style": ["Split_Push", "Engage", "Pick", "Skirmish"],
+        "attributes": ["Mobility", "CC", "Scaling"]
+      },
+      "synergies": [
+        "Split_Push",
+        "Pick",
+        "Mobility"
+      ],
+      "counters": [
+        "Teamfight",
+        "Range",
+        "CC"
+      ]
+    },
+    "cassiopeia": {
+      "name": "Cassiopeia",
+      "lanes": {
+        "primary": "Mid",
+        "flex": ["Top"]
+      },
+      "playstyle": {
+        "role": ["Mage"],
+        "damage": ["AP"],
+        "combat_style": ["Teamfight", "Skirmish"],
+        "attributes": ["CC", "Scaling", "Range"]
+      },
+      "synergies": [
+        "Teamfight",
+        "Protect",
+        "CC"
+      ],
+      "counters": [
+        "Mobility",
+        "Engage"
+      ]
+    },
+    "cho_gath": {
+      "name": "Cho'Gath",
+      "lanes": {
+        "primary": "Top",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Tank", "Mage"],
+        "damage": ["AP"],
+        "combat_style": ["Teamfight"],
+        "attributes": ["CC", "Scaling", "Sustain"]
+      },
+      "synergies": [
+        "Teamfight",
+        "CC",
+        "Engage"
+      ],
+      "counters": [
+        "Range",
+        "Mobility",
+        "Skirmish"
+      ]
+    },
+    "corki": {
+      "name": "Corki",
+      "lanes": {
+        "primary": "ADC",
+        "flex": ["Mid"]
+      },
+      "playstyle": {
+        "role": ["Marksman"],
+        "damage": ["AD"],
+        "combat_style": ["Teamfight", "Skirmish", "Poke"],
+        "attributes": ["Mobility", "Range", "Scaling", "Mid_Game"]
+      },
+      "synergies": [
+        "Teamfight",
+        "Protect",
+        "Poke",
+        "Skirmish"
+      ],
+      "counters": [
+        "Engage",
+        "Mobility",
+        "CC"
+      ]
+    },
+    "darius": {
+      "name": "Darius",
+      "lanes": {
+        "primary": "Top",
+        "flex": ["Jungle"]
+      },
+      "playstyle": {
+        "role": ["Fighter"],
+        "damage": ["AD"],
+        "combat_style": ["Teamfight"],
+        "attributes": ["Sustain", "Mid_Game"]
+      },
+      "synergies": [
+        "Engage",
+        "Teamfight",
+        "CC"
+      ],
+      "counters": [
+        "Range",
+        "Mobility"
+      ]
+    },
+    "diana": {
+      "name": "Diana",
+      "lanes": {
+        "primary": "Mid",
+        "flex": ["Jungle"]
+      },
+      "playstyle": {
+        "role": ["Assassin", "Fighter"],
+        "damage": ["AP"],
+        "combat_style": ["Engage", "Burst", "Skirmish"],
+        "attributes": ["Mobility", "CC", "Mid_Game"]
+      },
+      "synergies": [
+        "Engage",
+        "Teamfight",
+        "Burst"
+      ],
+      "counters": [
+        "CC",
+        "Mobility",
+        "Range"
+      ]
+    },
+    "dr_mundo": {
+      "name": "Dr. Mundo",
+      "lanes": {
+        "primary": "Top",
+        "flex": ["Jungle"]
+      },
+      "playstyle": {
+        "role": ["Tank"],
+        "damage": ["AD"],
+        "combat_style": ["Split_Push", "Teamfight"],
+        "attributes": ["Scaling", "Sustain"]
+      },
+      "synergies": [
+        "Teamfight",
+        "CC",
+        "Protect",
+        "Global"
+      ],
+      "counters": [
+        "Range",
+        "Mobility",
+        "Skirmish"
+      ]
+    },
+    "draven": {
+      "name": "Draven",
+      "lanes": {
+        "primary": "ADC",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Marksman"],
+        "damage": ["AD"],
+        "combat_style": ["Skirmish", "Pick"],
+        "attributes": ["Mid_Game", "Mobility"]
+      },
+      "synergies": [
+        "Skirmish",
+        "Engage",
+        "CC"
+      ],
+      "counters": [
+        "Mobility",
+        "Range"
+      ]
+    },
+    "ekko": {
+      "name": "Ekko",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": ["Mid"]
+      },
+      "playstyle": {
+        "role": ["Assassin"],
+        "damage": ["AP"],
+        "combat_style": ["Engage", "Pick", "Burst", "Skirmish", "Teamfight"],
+        "attributes": ["Mobility", "CC", "Scaling"]
+      },
+      "synergies": [
+        "Burst",
+        "Pick",
+        "Skirmish",
+        "Engage"
+      ],
+      "counters": [
+        "CC",
+        "Range"
+      ]
+    },
+    "elise": {
+      "name": "Elise",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": ["Support"]
+      },
+      "playstyle": {
+        "role": ["Assassin"],
+        "damage": ["AP"],
+        "combat_style": ["Skirmish", "Pick", "Burst"],
+        "attributes": ["Mobility", "Mid_Game"]
+      },
+      "synergies": [
+        "Engage",
+        "Pick",
+        "Skirmish"
+      ],
+      "counters": [
+        "Teamfight",
+        "Protect",
+        "CC"
+      ]
+    },
+    "evelynn": {
+      "name": "Evelynn",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Assassin"],
+        "damage": ["AP"],
+        "combat_style": ["Teamfight", "Pick", "Burst"],
+        "attributes": ["Mobility", "Scaling"]
+      },
+      "synergies": [
+        "Engage",
+        "Teamfight",
+        "Pick"
+      ],
+      "counters": [
+        "Skirmish",
+        "CC"
+      ]
+    },
+    "ezreal": {
+      "name": "Ezreal",
+      "lanes": {
+        "primary": "ADC",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Marksman"],
+        "damage": ["AD"],
+        "combat_style": ["Skirmish", "Teamfight", "Poke"],
+        "attributes": ["Mobility", "Range", "Scaling", "Mid_Game"]
+      },
+      "synergies": [
+        "Poke",
+        "Skirmish",
+        "Mobility"
+      ],
+      "counters": [
+        "Engage",
+        "CC"
+      ]
+    },
+    "fiddlesticks": {
+      "name": "Fiddlesticks",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": ["Support"]
+      },
+      "playstyle": {
+        "role": ["Mage"],
+        "damage": ["AP"],
+        "combat_style": ["Teamfight", "Engage", "Pick"],
+        "attributes": ["CC", "Scaling", "Sustain"]
+      },
+      "synergies": [
+        "Teamfight",
+        "Pick",
+        "CC"
+      ],
+      "counters": [
+        "Mobility",
+        "Skirmish",
+        "Range"
+      ]
+    },
+    "fiora": {
+      "name": "Fiora",
+      "lanes": {
+        "primary": "Top",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Fighter"],
+        "damage": ["AD"],
+        "combat_style": ["Split_Push", "Skirmish"],
+        "attributes": ["Mobility", "Mid_Game", "Sustain"]
+      },
+      "synergies": [
+        "Split_Push",
+        "Mobility",
+        "Skirmish"
+      ],
+      "counters": [
+        "CC",
+        "Range",
+        "Teamfight"
+      ]
+    },
+    "fizz": {
+      "name": "Fizz",
+      "lanes": {
+        "primary": "Mid",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Assassin"],
+        "damage": ["AP"],
+        "combat_style": ["Burst", "Pick", "Skirmish"],
+        "attributes": ["Mobility", "Burst", "Scaling"]
+      },
+      "synergies": [
+        "Burst",
+        "Pick",
+        "Mobility"
+      ],
+      "counters": [
+        "CC",
+        "Range"
+      ]
+    },
+    "galio": {
+      "name": "Galio",
+      "lanes": {
+        "primary": "Mid",
+        "flex": ["Support", "Top"]
+      },
+      "playstyle": {
+        "role": ["Tank", "Mage"],
+        "damage": ["AP"],
+        "combat_style": ["Engage", "Teamfight"],
+        "attributes": ["CC", "Global", "Scaling"]
+      },
+      "synergies": [
+        "Engage",
+        "Teamfight",
+        "CC"
+      ],
+      "counters": [
+        "Skirmish",
+        "Range",
+        "Mobility"
+      ]
+    },
+    "gangplank": {
+      "name": "Gangplank",
+      "lanes": {
+        "primary": "Top",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Fighter"],
+        "damage": ["AD"],
+        "combat_style": ["Teamfight", "Poke"],
+        "attributes": ["Range", "Scaling", "Global"]
+      },
+      "synergies": [
+        "Teamfight",
+        "Poke",
+        "CC"
+      ],
+      "counters": [
+        "Mobility",
+        "Engage",
+        "Skirmish"
+      ]
+    },
+    "garen": {
+      "name": "Garen",
+      "lanes": {
+        "primary": "Top",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Fighter", "Tank"],
+        "damage": ["AD"],
+        "combat_style": ["Engage", "Skirmish"],
+        "attributes": ["Sustain", "Mid_Game", "Scaling"]
+      },
+      "synergies": [
+        "Skirmish",
+        "Engage",
+        "CC"
+      ],
+      "counters": [
+        "Range",
+        "Mobility"
+      ]
+    },
+    "gnar": {
+      "name": "Gnar",
+      "lanes": {
+        "primary": "Top",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Fighter", "Tank"],
+        "damage": ["AD"],
+        "combat_style": ["Poke", "Teamfight", "Engage"],
+        "attributes": ["CC", "Range", "Mobility", "Scaling"]
+      },
+      "synergies": [
+        "Engage",
+        "Teamfight",
+        "CC"
+      ],
+      "counters": [
+        "Sustain",
+        "Mobility",
+        "Skirmish"
+      ]
+    },
+    "graves": {
+      "name": "Graves",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Marksman"],
+        "damage": ["AD"],
+        "combat_style": ["Skirmish", "Burst"],
+        "attributes": ["Burst", "Mid_Game"]
+      },
+      "synergies": [
+        "Skirmish",
+        "Burst",
+        "Engage",
+        "CC"
+      ],
+      "counters": [
+        "Range",
+        "CC"
+      ]
+    },
+    "gwen": {
+      "name": "Gwen",
+      "lanes": {
+        "primary": "Top",
+        "flex": ["Jungle"]
+      },
+      "playstyle": {
+        "role": ["Fighter"],
+        "damage": ["AP"],
+        "combat_style": ["Skirmish", "Split_Push"],
+        "attributes": ["Scaling", "Sustain"]
+      },
+      "synergies": [
+        "Skirmish",
+        "Protect",
+        "CC"
+      ],
+      "counters": [
+        "Range",
+        "CC"
+      ]
+    },
+    "hecarim": {
+      "name": "Hecarim",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Fighter"],
+        "damage": ["AD"],
+        "combat_style": ["Engage", "Teamfight", "Skirmish"],
+        "attributes": ["Mobility", "CC", "Scaling"]
+      },
+      "synergies": [
+        "Engage",
+        "CC",
+        "Teamfight"
+      ],
+      "counters": [
+        "CC",
+        "Range"
+      ]
+    },
+    "heimerdinger": {
+      "name": "Heimerdinger",
+      "lanes": {
+        "primary": "Mid",
+        "flex": ["Top", "Support"]
+      },
+      "playstyle": {
+        "role": ["Mage"],
+        "damage": ["AP"],
+        "combat_style": ["Poke", "Teamfight"],
+        "attributes": ["Range", "CC", "Scaling"]
+      },
+      "synergies": [
+        "Poke",
+        "Teamfight",
+        "CC"
+      ],
+      "counters": [
+        "Mobility",
+        "Engage",
+        "Range"
+      ]
+    },
+    "hwei": {
+      "name": "Hwei",
+      "lanes": {
+        "primary": "Mid",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Mage"],
+        "damage": ["AP"],
+        "combat_style": ["Poke", "Teamfight"],
+        "attributes": ["Range", "CC", "Scaling"]
+      },
+      "synergies": [
+        "Poke",
+        "Teamfight",
+        "CC"
+      ],
+      "counters": [
+        "Mobility",
+        "Engage"
+      ]
+    },
+    "irelia": {
+      "name": "Irelia",
+      "lanes": {
+        "primary": "Mid",
+        "flex": ["Top"]
+      },
+      "playstyle": {
+        "role": ["Fighter"],
+        "damage": ["AD"],
+        "combat_style": ["Skirmish", "Teamfight"],
+        "attributes": ["Mobility", "Sustain", "Scaling"]
+      },
+      "synergies": [
+        "Engage",
+        "Teamfight",
+        "Skirmish"
+      ],
+      "counters": [
+        "CC",
+        "Range"
+      ]
+    },
+    "ivern": {
+      "name": "Ivern",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Support"],
+        "damage": ["AD"],
+        "combat_style": ["Protect", "Teamfight"],
+        "attributes": ["CC", "Scaling"]
+      },
+      "synergies": [
+        "Protect",
+        "Teamfight",
+        "Range"
+      ],
+      "counters": [
+        "Engage",
+        "Burst",
+        "Skirmish"
+      ]
+    },
+    "janna": {
+      "name": "Janna",
+      "lanes": {
+        "primary": "Support",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Support"],
+        "damage": ["AP"],
+        "combat_style": ["Protect", "Teamfight"],
+        "attributes": ["Mobility", "CC"]
+      },
+      "synergies": [
+        "Protect",
+        "Mobility",
+        "CC"
+      ],
+      "counters": [
+        "Mobility",
+        "Range",
+        "Burst"
+      ]
+    },
+    "jarvan_iv": {
+      "name": "Jarvan IV",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": ["Top"]
+      },
+      "playstyle": {
+        "role": ["Fighter", "Tank"],
+        "combat_style": ["Engage", "Teamfight", "Skirmish"],
+        "attributes": ["CC", "Mid_Game"]
+      },
+      "synergies": [
+        "Protect",
+        "Teamfight",
+        "Burst"
+      ],
+      "counters": [
+        "Mobility",
+        "Range"
+      ]
+    },
+    "jax": {
+      "name": "Jax",
+      "lanes": {
+        "primary": "Top",
+        "flex": ["Jungle"]
+      },
+      "playstyle": {
+        "role": ["Fighter", "Mage"],
+        "damage": ["AD", "AP"],
+        "combat_style": ["Split_Push", "Skirmish"],
+        "attributes": ["Mobility", "Scaling"]
+      },
+      "synergies": [
+        "Split_Push",
+        "Skirmish",
+        "CC"
+      ],
+      "counters": [
+        "Range",
+        "CC"
+      ]
+    },
+    "jayce": {
+      "name": "Jayce",
+      "lanes": {
+        "primary": "Top",
+        "flex": ["Mid"]
+      },
+      "playstyle": {
+        "role": ["Marksman"],
+        "damage": ["AD"],
+        "combat_style": ["Poke", "Skirmish"],
+        "attributes": ["Range", "Mid_Game"]
+      },
+      "synergies": [
+        "Poke",
+        "Skirmish",
+        "CC"
+      ],
+      "counters": [
+        "Mobility",
+        "Engage"
+      ]
+    },
+    "jhin": {
+      "name": "Jhin",
+      "lanes": {
+        "primary": "ADC",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Marksman"],
+        "damage": ["AD"],
+        "combat_style": ["Pick", "Poke", "Skirmish", "Teamfight"],
+        "attributes": ["Range", "CC", "Scaling"]
+      },
+      "synergies": [
+        "Pick",
+        "Poke",
+        "CC"
+      ],
+      "counters": [
+        "Mobility",
+        "Tank",
+        "Engage"
+      ]
+    },
+    "jinx": {
+      "name": "Jinx",
+      "lanes": {
+        "primary": "ADC",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Marksman"],
+        "damage": ["AD"],
+        "combat_style": ["Teamfight"],
+        "attributes": ["Range", "Scaling"]
+      },
+      "synergies": [
+        "Protect",
+        "Teamfight"
+      ],
+      "counters": [
+        "Skirmish",
+        "Engage",
+        "Pick",
+        "Burst"
+      ]
+    },
+    "ksante": {
+      "name": "K'Sante",
+      "lanes": {
+        "primary": "Top",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Tank", "Fighter"],
+        "damage": ["AD"],
+        "combat_style": ["Protect", "Teamfight", "Skirmish"],
+        "attributes": ["CC", "Mobility", "Scaling"]
+      },
+      "synergies": [
+        "Engage",
+        "Teamfight",
+        "CC",
+        "Skirmish"
+      ],
+      "counters": [
+        "Range",
+        "Sustain"
+      ]
+    },
+    "kalista": {
+      "name": "Kalista",
+      "lanes": {
+        "primary": "ADC",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Marksman"],
+        "damage": ["AD"],
+        "combat_style": ["Teamfight", "Skirmish", "Pick"],
+        "attributes": ["Mobility", "Range", "CC", "Mid_Game", "Scaling"]
+      },
+      "synergies": [
+        "Teamfight",
+        "Engage",
+        "CC"
+      ],
+      "counters": [
+        "CC",
+        "Range"
+      ]
+    },
+    "kaisa": {
+      "name": "Kai'Sa",
+      "lanes": {
+        "primary": "ADC",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Marksman"],
+        "damage": ["AD", "AP"],
+        "combat_style": ["Teamfight", "Skirmish", "Pick"],
+        "attributes": ["Mobility", "Burst", "Scaling", "Mid_Game"]
+      },
+      "synergies": [
+        "Teamfight",
+        "Pick",
+        "Engage"
+      ],
+      "counters": [
+        "CC",
+        "Range"
+      ]
+    },
+    "karma": {
+      "name": "Karma",
+      "lanes": {
+        "primary": "Support",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Support", "Mage"],
+        "damage": ["AP"],
+        "combat_style": ["Poke", "Protect", "Teamfight", "Skirmish"],
+        "attributes": ["Mobility", "Mid_Game", "CC", "Scaling"]
+      },
+      "synergies": [
+        "Poke",
+        "Protect",
+        "Mobility"
+      ],
+      "counters": [
+        "Burst",
+        "Engage"
+      ]
+    },
+    "karthus": {
+      "name": "Karthus",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Mage"],
+        "damage": ["AP"],
+        "combat_style": ["Teamfight", "Pick", "Poke"],
+        "attributes": ["Global", "Scaling"]
+      },
+      "synergies": [
+        "Teamfight",
+        "Global",
+        "CC",
+        "Protect"
+      ],
+      "counters": [
+        "Mobility",
+        "Engage",
+        "Skirmish"
+      ]
+    },
+    "kassadin": {
+      "name": "Kassadin",
+      "lanes": {
+        "primary": "Mid",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Assassin"],
+        "damage": ["AP"],
+        "combat_style": ["Skirmish", "Burst"],
+        "attributes": ["Mobility", "Scaling"]
+      },
+      "synergies": [
+        "Burst",
+        "Skirmish",
+        "Pick"
+      ],
+      "counters": [
+        "Range",
+        "Burst",
+        "CC"
+      ]
+    },
+    "katarina": {
+      "name": "Katarina",
+      "lanes": {
+        "primary": "Mid",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Assassin"],
+        "damage": ["AP"],
+        "combat_style": ["Teamfight", "Skirmish", "Burst", "Pick"],
+        "attributes": ["Mobility", "Scaling"]
+      },
+      "synergies": [
+        "Teamfight",
+        "Burst",
+        "CC"
+      ],
+      "counters": [
+        "CC",
+        "Range",
+        "Tank"
+      ]
+    },
+    "kayle": {
+      "name": "Kayle",
+      "lanes": {
+        "primary": "Top",
+        "flex": ["Mid"]
+      },
+      "playstyle": {
+        "role": ["Fighter", "Marksman"],
+        "damage": ["AD", "AP"],
+        "combat_style": ["Teamfight", "Protect"],
+        "attributes": ["Range", "Scaling"]
+      },
+      "synergies": [
+        "Teamfight",
+        "Protect",
+        "CC"
+      ],
+      "counters": [
+        "Skirmish",
+        "Mobility",
+        "Engage"
+      ]
+    },
+    "kayn": {
+      "name": "Kayn",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Assassin", "Fighter"],
+        "damage": ["AD"],
+        "combat_style": ["Engage", "Teamfight", "Skirmish"],
+        "attributes": ["Mobility", "Scaling"]
+      },
+      "synergies": [
+        "CC",
+        "Pick",
+        "Skirmish"
+      ],
+      "counters": [
+        "CC",
+        "Range"
+      ]
+    },
+    "kennen": {
+      "name": "Kennen",
+      "lanes": {
+        "primary": "Top",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Mage"],
+        "damage": ["AP"],
+        "combat_style": ["Teamfight", "Skirmish", "Split_Push", "Engage", "Poke"],
+        "attributes": ["CC", "Range", "Mobility", "Scaling"]
+      },
+      "synergies": [
+        "Teamfight",
+        "Engage",
+        "CC"
+      ],
+      "counters": [
+        "Range",
+        "Sustain",
+        "CC"
+      ]
+    },
+    "kha_zix": {
+      "name": "Kha'Zix",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Assassin"],
+        "damage": ["AD"],
+        "combat_style": ["Pick", "Burst", "Skirmish"],
+        "attributes": ["Mobility", "Scaling"]
+      },
+      "synergies": [
+        "Pick",
+        "Burst",
+        "CC"
+      ],
+      "counters": [
+        "CC",
+        "Teamfight",
+        "Range"
+      ]
+    },
+    "kindred": {
+      "name": "Kindred",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Marksman"],
+        "damage": ["AD"],
+        "combat_style": ["Teamfight", "Skirmish", "Pick"],
+        "attributes": ["Range", "Mobility", "Scaling"]
+      },
+      "synergies": [
+        "Teamfight",
+        "Skirmish",
+        "CC"
+      ],
+      "counters": [
+        "Engage",
+        "Mobility",
+        "CC"
+      ]
+    },
+
+    "kled": {
+      "name": "Kled",
+      "lanes": {
+        "primary": "Top",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Fighter"],
+        "damage": ["AD"],
+        "combat_style": ["Engage", "Skirmish", "Teamfight", "Split_Push"],
+        "attributes": ["Mobility", "Mid_Game", "CC"]
+      },
+      "synergies": [
+        "Engage",
+        "Skirmish",
+        "CC"
+      ],
+      "counters": [
+        "Range",
+        "CC"
+      ]
+    },
+    "kogmaw": {
+      "name": "Kog'Maw",
+      "lanes": {
+        "primary": "ADC",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Marksman"],
+        "damage": ["AD", "AP"],
+        "combat_style": ["Teamfight"],
+        "attributes": ["Range", "Scaling"]
+      },
+      "synergies": [
+        "Protect",
+        "Teamfight",
+        "CC"
+      ],
+      "counters": [
+        "Mobility",
+        "Engage",
+        "Skirmish"
+      ]
+    },
+    "leblanc": {
+      "name": "LeBlanc",
+      "lanes": {
+        "primary": "Mid",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Assassin"],
+        "damage": ["AP"],
+        "combat_style": ["Pick", "Burst", "Skirmish"],
+        "attributes": ["Mobility", "Mid_Game"]
+      },
+      "synergies": [
+        "Pick",
+        "Burst",
+        "Mobility"
+      ],
+      "counters": [
+        "CC",
+        "Sustain",
+        "Range"
+      ]
+    },
+    "lee_sin": {
+      "name": "Lee Sin",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Fighter"],
+        "damage": ["AD"],
+        "combat_style": ["Engage", "Skirmish", "Pick"],
+        "attributes": ["Mobility", "Mid_Game"]
+      },
+      "synergies": [
+        "Pick",
+        "Skirmish",
+        "CC"
+      ],
+      "counters": [
+        "CC",
+        "Range"
+      ]
+    },
+    "leona": {
+      "name": "Leona",
+      "lanes": {
+        "primary": "Support",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Tank", "Support"],
+        "damage": ["AP"],
+        "combat_style": ["Engage", "Protect", "Skirmish", "Teamfight"],
+        "attributes": ["CC", "Mid_Game"]
+      },
+      "synergies": [
+        "Engage",
+        "Teamfight",
+        "Skirmish"
+      ],
+      "counters": [
+        "Range",
+        "Mobility"
+      ]
+    },
+    "lillia": {
+      "name": "Lillia",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Mage"],
+        "damage": ["AP"],
+        "combat_style": ["Teamfight", "Skirmish"],
+        "attributes": ["Mobility", "Scaling", "CC"]
+      },
+      "synergies": [
+        "Teamfight",
+        "CC",
+        "Skirmish",
+        "Engage"
+      ],
+      "counters": [
+        "Mobility",
+        "CC"
+      ]
+    },
+    "lissandra": {
+      "name": "Lissandra",
+      "lanes": {
+        "primary": "Mid",
+        "flex": ["Top", "Support"]
+      },
+      "playstyle": {
+        "role": ["Mage"],
+        "damage": ["AP"],
+        "combat_style": ["Engage", "Teamfight"],
+        "attributes": ["CC", "Mobility", "Mid_Game"]
+      },
+      "synergies": [
+        "Engage",
+        "Teamfight",
+        "CC"
+      ],
+      "counters": [
+        "Range",
+        "Sustain",
+        "Skirmish"
+      ]
+    },
+    "lucian": {
+      "name": "Lucian",
+      "lanes": {
+        "primary": "ADC",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Marksman"],
+        "damage": ["AD"],
+        "combat_style": ["Skirmish", "Burst"],
+        "attributes": ["Mobility", "Mid_Game"]
+      },
+      "synergies": [
+        "Skirmish",
+        "Burst",
+        "CC"
+      ],
+      "counters": [
+        "Range",
+        "CC"
+      ]
+    },
+    "lulu": {
+      "name": "Lulu",
+      "lanes": {
+        "primary": "Support",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Support"],
+        "damage": ["AP"],
+        "combat_style": ["Protect", "Teamfight"],
+        "attributes": ["Mobility", "CC", "Scaling"]
+      },
+      "synergies": [
+        "Protect",
+        "Mobility",
+        "Teamfight"
+      ],
+      "counters": [
+        "Engage",
+        "Range",
+        "Burst"
+      ]
+    },
+    "lux": {
+      "name": "Lux",
+      "lanes": {
+        "primary": "Support",
+        "flex": ["Mid"]
+      },
+      "playstyle": {
+        "role": ["Mage", "Assassin"],
+        "damage": ["AP"],
+        "combat_style": ["Poke", "Teamfight", "Skirmish"],
+        "attributes": ["Range", "Scaling"]
+      },
+      "synergies": [
+        "Poke",
+        "CC",
+        "Pick"
+      ],
+      "counters": [
+        "Mobility",
+        "Range",
+        "Engage"
+      ]
+    },
+    "malphite": {
+      "name": "Malphite",
+      "lanes": {
+        "primary": "Top",
+        "flex": ["Mid", "Support"]
+      },
+      "playstyle": {
+        "role": ["Tank", "Mage"],
+        "damage": ["AP"],
+        "combat_style": ["Teamfight", "Engage"],
+        "attributes": ["CC", "Scaling"]
+      },
+      "synergies": [
+        "Teamfight",
+        "Engage",
+        "Burst"
+      ],
+      "counters": [
+        "Range",
+        "Sustain"
+      ]
+    },
+    "malzahar": {
+      "name": "Malzahar",
+      "lanes": {
+        "primary": "Mid",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Mage"],
+        "damage": ["AP"],
+        "combat_style": ["Pick", "Teamfight"],
+        "attributes": ["CC", "Scaling"]
+      },
+      "synergies": [
+        "Pick",
+        "Teamfight",
+        "CC"
+      ],
+      "counters": [
+        "Mobility",
+        "Skirmish",
+        "Range"
+      ]
+    },
+    "maokai": {
+      "name": "Maokai",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": ["Top", "Support"]
+      },
+      "playstyle": {
+        "role": ["Tank"],
+        "damage": ["AP"],
+        "combat_style": ["Engage", "Teamfight", "Skirmish"],
+        "attributes": ["CC", "Sustain", "Scaling"]
+      },
+      "synergies": [
+        "Engage",
+        "Teamfight",
+        "CC"
+      ],
+      "counters": [
+        "Range",
+        "Sustain"
+      ]
+    },
+    "master_yi": {
+      "name": "Master Yi",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Assassin", "Fighter"],
+        "damage": ["AD"],
+        "combat_style": ["Teamfight", "Skirmish"],
+        "attributes": ["Mobility", "Scaling", "Sustain"]
+      },
+      "synergies": [
+        "Protect",
+        "Skirmish",
+        "CC"
+      ],
+      "counters": [
+        "CC",
+        "Range"
+      ]
+    },
+    "mel": {
+      "name": "Mel",
+      "lanes": {
+        "primary": "Mid",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Mage"],
+        "combat_style": ["Poke", "Teamfight"],
+        "attributes": ["Range", "CC", "Scaling"]
+      },
+      "synergies": [
+        "Protect",
+        "CC",
+        "Poke"
+      ],
+      "counters": [
+        "Engage",
+        "Mobility"
+      ]
+    },
+    "miss_fortune": {
+      "name": "Miss Fortune",
+      "lanes": {
+        "primary": "ADC",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Marksman"],
+        "damage": ["AD"],
+        "combat_style": ["Teamfight", "Skirmish", "Poke"],
+        "attributes": ["Range", "Mid_Game", "Scaling"]
+      },
+      "synergies": [
+        "Teamfight",
+        "Poke",
+        "CC"
+      ],
+      "counters": [
+        "Mobility",
+        "CC",
+        "Engage"
+      ]
+    },
+    "mordekaiser": {
+      "name": "Mordekaiser",
+      "lanes": {
+        "primary": "Top",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Fighter"],
+        "damage": ["AP"],
+        "combat_style": ["Skirmish", "Teamfight"],
+        "attributes": ["Sustain", "CC", "Scaling"]
+      },
+      "synergies": [
+        "Skirmish",
+        "Teamfight",
+        "CC"
+      ],
+      "counters": [
+        "Mobility",
+        "Range",
+        "CC"
+      ]
+    },
+    "morgana": {
+      "name": "Morgana",
+      "lanes": {
+        "primary": "Support",
+        "flex": ["Mid", "Jungle"]
+      },
+      "playstyle": {
+        "role": ["Support", "Mage"],
+        "damage": ["AP"],
+        "combat_style": ["Protect", "Pick", "Teamfight", "Skirmish"],
+        "attributes": ["CC", "Sustain", "Scaling"]
+      },
+      "synergies": [
+        "Teamfight",
+        "Pick",
+        "CC"
+      ],
+      "counters": [
+        "Mobility",
+        "Range",
+        "Sustain"
+      ]
+    },
+    "naafiri": {
+      "name": "Naafiri",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": ["Mid"]
+      },
+      "playstyle": {
+        "role": ["Assassin"],
+        "damage": ["AD"],
+        "combat_style": ["Burst", "Pick", "Skirmish"],
+        "attributes": ["Mobility", "Mid_Game", "Sustain"]
+      },
+      "synergies": [
+        "Burst",
+        "Pick",
+        "Skirmish",
+        "CC"
+      ],
+      "counters": [
+        "CC",
+        "Tank",
+        "Range"
+      ]
+    },
+    "nami": {
+      "name": "Nami",
+      "lanes": {
+        "primary": "Support",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Support"],
+        "damage": ["AP"],
+        "combat_style": ["Protect", "Teamfight"],
+        "attributes": ["CC", "Sustain", "Scaling"]
+      },
+      "synergies": [
+        "Protect",
+        "Teamfight",
+        "Range"
+      ],
+      "counters": [
+        "Mobility",
+        "Burst",
+        "Engage"
+      ]
+    },
+    "nasus": {
+      "name": "Nasus",
+      "lanes": {
+        "primary": "Top",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Fighter", "Mage"],
+        "damage": ["AD"],
+        "combat_style": ["Split_Push", "Teamfight"],
+        "attributes": ["Scaling", "Sustain"]
+      },
+      "synergies": [
+        "Split_Push",
+        "Teamfight",
+        "CC"
+      ],
+      "counters": [
+        "Skirmish",
+        "Range",
+        "Mobility"
+      ]
+    },
+    "nautilus": {
+      "name": "Nautilus",
+      "lanes": {
+        "primary": "Support",
+        "flex": ["Jungle"]
+      },
+      "playstyle": {
+        "role": ["Tank", "Support"],
+        "combat_style": ["Engage", "Teamfight", "Skirmish"],
+        "attributes": ["CC", "Mid_Game", "Scaling"]
+      },
+      "synergies": [
+        "Engage",
+        "Teamfight",
+        "Burst"
+      ],
+      "counters": [
+        "Poke",
+        "Range",
+        "Mobility"
+      ]
+    },
+    "neeko": {
+      "name": "Neeko",
+      "lanes": {
+        "primary": "Support",
+        "flex": ["Mid"]
+      },
+      "playstyle": {
+        "role": ["Mage"],
+        "damage": ["AP"],
+        "combat_style": ["Engage", "Teamfight", "Pick"],
+        "attributes": ["CC", "Mobility", "Mid_Game", "Scaling"]
+      },
+      "synergies": [
+        "Engage",
+        "Teamfight",
+        "CC"
+      ],
+      "counters": [
+        "Range",
+        "Mobility",
+        "Skirmish"
+      ]
+    },
+    "nidalee": {
+      "name": "Nidalee",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": ["Top"]
+      },
+      "playstyle": {
+        "role": ["Assassin", "Mage"],
+        "damage": ["AP"],
+        "combat_style": ["Poke", "Skirmish", "Pick"],
+        "attributes": ["Mobility", "Mid_Game"]
+      },
+      "synergies": [
+        "Pick",
+        "Skirmish",
+        "Mobility"
+      ],
+      "counters": [
+        "Teamfight",
+        "CC"
+      ]
+    },
+    "nilah": {
+      "name": "Nilah",
+      "lanes": {
+        "primary": "ADC",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Marksman"],
+        "damage": ["AD"],
+        "combat_style": ["Skirmish", "Teamfight"],
+        "attributes": ["Mobility", "Scaling", "Sustain"]
+      },
+      "synergies": [
+        "Skirmish",
+        "Teamfight",
+        "CC"
+      ],
+      "counters": [
+        "Range",
+        "Poke"
+      ]
+    },
+    "nocturne": {
+      "name": "Nocturne",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Assassin", "Fighter"],
+        "damage": ["AD"],
+        "combat_style": ["Engage", "Pick", "Skirmish", "Teamfight"],
+        "attributes": ["Mobility", "Global", "CC"]
+      },
+      "synergies": [
+        "Pick",
+        "Skirmish",
+        "Global"
+      ],
+      "counters": [
+        "CC",
+        "Range"
+      ]
+    },
+    "nunu": {
+      "name": "Nunu & Willump",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Tank", "Mage"],
+        "combat_style": ["Engage", "Teamfight", "Pick"],
+        "attributes": ["CC", "Mobility", "Sustain", "Mid_Game"]
+      },
+      "synergies": [
+        "Engage",
+        "Teamfight",
+        "CC"
+      ],
+      "counters": [
+        "Range",
+        "CC"
+      ]
+    },
+    "olaf": {
+      "name": "Olaf",
+      "lanes": {
+        "primary": "Top",
+        "flex": ["Jungle"]
+      },
+      "playstyle": {
+        "role": ["Fighter"],
+        "damage": ["AD"],
+        "combat_style": ["Skirmish", "Teamfight"],
+        "attributes": ["Mid_Game", "Sustain"]
+      },
+      "synergies": [
+        "Skirmish",
+        "Teamfight",
+        "CC"
+      ],
+      "counters": [
+        "Range",
+        "Mobility"
+      ]
+    },
+    "orianna": {
+      "name": "Orianna",
+      "lanes": {
+        "primary": "Mid",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Mage"],
+        "damage": ["AP"],
+        "combat_style": ["Teamfight", "Poke"],
+        "attributes": ["CC", "Scaling", "Range"]
+      },
+      "synergies": [
+        "Teamfight",
+        "Engage",
+        "CC"
+      ],
+      "counters": [
+        "Mobility",
+        "Engage",
+        "Skirmish"
+      ]
+    },
+    "ornn": {
+      "name": "Ornn",
+      "lanes": {
+        "primary": "Top",
+        "flex": ["Support"]
+      },
+      "playstyle": {
+        "role": ["Tank"],
+        "damage": ["AP"],
+        "combat_style": ["Engage", "Teamfight", "Protect"],
+        "attributes": ["CC", "Scaling"]
+      },
+      "synergies": [
+        "Engage",
+        "Teamfight",
+        "CC"
+      ],
+      "counters": [
+        "Range",
+        "Mobility",
+        "Skirmish"
+      ]
+    },
+    "pantheon": {
+      "name": "Pantheon",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": ["Top", "Support"]
+      },
+      "playstyle": {
+        "role": ["Fighter"],
+        "damage": ["AD"],
+        "combat_style": ["Engage", "Skirmish", "Burst"],
+        "attributes": ["Global", "CC", "Mid_Game"]
+      },
+      "synergies": [
+        "Engage",
+        "Burst",
+        "CC",
+        "Skirmish"
+      ],
+      "counters": [
+        "Range",
+        "Sustain"
+      ]
+    },
+    "poppy": {
+      "name": "Poppy",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": ["Top", "Support"]
+      },
+      "playstyle": {
+        "role": ["Tank"],
+        "damage": ["AD"],
+        "combat_style": ["Engage", "Teamfight", "Skirmish", "Protect"],
+        "attributes": ["CC", "Mobility"]
+      },
+      "synergies": [
+        "Engage",
+        "Teamfight",
+        "CC"
+      ],
+      "counters": [
+        "Range",
+        "Poke"
+      ]
+    },
+    "pyke": {
+      "name": "Pyke",
+      "lanes": {
+        "primary": "Support",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Assassin"],
+        "damage": ["AD"],
+        "combat_style": ["Engage", "Skirmish", "Pick"],
+        "attributes": ["Mobility", "CC", "Mid_Game"]
+      },
+      "synergies": [
+        "CC",
+        "Pick",
+        "Burst"
+      ],
+      "counters": [
+        "Sustain",
+        "Teamfight",
+        "Range",
+        "Tank"
+      ]
+    },
+    "qiyana": {
+      "name": "Qiyana",
+      "lanes": {
+        "primary": "Mid",
+        "flex": ["Jungle"]
+      },
+      "playstyle": {
+        "role": ["Assassin"],
+        "damage": ["AD"],
+        "combat_style": ["Burst", "Pick", "Skirmish"],
+        "attributes": ["Mobility", "CC", "Mid_Game"]
+      },
+      "synergies": [
+        "Burst",
+        "Pick",
+        "CC"
+      ],
+      "counters": [
+        "Range",
+        "Sustain",
+        "CC"
+      ]
+    },
+    "quinn": {
+      "name": "Quinn",
+      "lanes": {
+        "primary": "Top",
+        "flex": ["Mid"]
+      },
+      "playstyle": {
+        "role": ["Marksman", "Assassin"],
+        "damage": ["AD"],
+        "combat_style": ["Split_Push", "Pick", "Skirmish"],
+        "attributes": ["Mobility", "Range", "Mid_Game"]
+      },
+      "synergies": [
+        "Split_Push",
+        "Pick",
+        "Mobility"
+      ],
+      "counters": [
+        "Teamfight",
+        "Range",
+        "CC"
+      ]
+    },
+    "rakan": {
+      "name": "Rakan",
+      "lanes": {
+        "primary": "Support",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Support"],
+        "damage": ["AP"],
+        "combat_style": ["Engage", "Teamfight", "Skirmish"],
+        "attributes": ["Mobility", "CC", "Scaling", "Mid_Game"]
+      },
+      "synergies": [
+        "Engage",
+        "Teamfight",
+        "Burst"
+      ],
+      "counters": [
+        "Range",
+        "CC"
+      ]
+    },
+    "rammus": {
+      "name": "Rammus",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Tank"],
+        "damage": ["AP"],
+        "combat_style": ["Engage", "Teamfight", "Skirmish"],
+        "attributes": ["CC", "Mobility", "Scaling"]
+      },
+      "synergies": [
+        "Engage",
+        "Teamfight",
+        "Burst"
+      ],
+      "counters": [
+        "CC",
+        "Range",
+        "Sustain"
+      ]
+    },
+    "reksai": {
+      "name": "Rek'Sai",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": ["Top"]
+      },
+      "playstyle": {
+        "role": ["Fighter"],
+        "damage": ["AD"],
+        "combat_style": ["Skirmish", "Pick", "Engage"],
+        "attributes": ["Mobility", "Mid_Game"]
+      },
+      "synergies": [
+        "Skirmish",
+        "Pick",
+        "CC"
+      ],
+      "counters": [
+        "Range",
+        "CC"
+      ]
+    },
+    "rell": {
+      "name": "Rell",
+      "lanes": {
+        "primary": "Support",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Tank", "Support"],
+        "combat_style": ["Engage", "Teamfight"],
+        "attributes": ["CC", "Mobility", "Mid_Game", "Scaling"]
+      },
+      "synergies": [
+        "Engage",
+        "Teamfight",
+        "Burst"
+      ],
+      "counters": [
+        "Range",
+        "Poke",
+        "Mobility"
+      ]
+    },
+    "renata": {
+      "name": "Renata Glasc",
+      "lanes": {
+        "primary": "Support",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Support"],
+        "damage": ["AP"],
+        "combat_style": ["Protect", "Teamfight"],
+        "attributes": ["CC", "Scaling"]
+      },
+      "synergies": [
+        "Protect",
+        "Teamfight",
+        "CC"
+      ],
+      "counters": [
+        "Engage",
+        "Burst",
+        "Mobility"
+      ]
+    },
+    "renekton": {
+      "name": "Renekton",
+      "lanes": {
+        "primary": "Top",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Fighter"],
+        "damage": ["AD"],
+        "combat_style": ["Skirmish", "Teamfight", "Engage"],
+        "attributes": ["Mid_Game", "Mobility", "CC", "Sustain"]
+      },
+      "synergies": [
+        "Skirmish",
+        "Teamfight",
+        "Engage",
+        "Mid_Game"
+      ],
+      "counters": [
+        "Range",
+        "CC",
+        "Scaling"
+      ]
+    },
+    "rengar": {
+      "name": "Rengar",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Assassin"],
+        "damage": ["AD"],
+        "combat_style": ["Pick", "Burst", "Skirmish"],
+        "attributes": ["Mobility", "Burst", "Mid_Game"]
+      },
+      "synergies": [
+        "Pick",
+        "Burst",
+        "Mobility"
+      ],
+      "counters": [
+        "CC",
+        "Teamfight",
+        "Protect"
+      ]
+    },
+    "riven": {
+      "name": "Riven",
+      "lanes": {
+        "primary": "Top",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Fighter"],
+        "damage": ["AD"],
+        "combat_style": ["Burst", "Skirmish"],
+        "attributes": ["Mobility", "Scaling"]
+      },
+      "synergies": [
+        "Skirmish",
+        "Burst",
+        "Mobility"
+      ],
+      "counters": [
+        "CC",
+        "Sustain",
+        "Range"
+      ]
+    },
+    "rumble": {
+      "name": "Rumble",
+      "lanes": {
+        "primary": "Top",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Mage"],
+        "damage": ["AP"],
+        "combat_style": ["Teamfight", "Poke"],
+        "attributes": ["Range", "CC", "Scaling"]
+      },
+      "synergies": [
+        "Teamfight",
+        "Poke",
+        "CC"
+      ],
+      "counters": [
+        "Range",
+        "Mobility",
+        "Skirmish",
+        "Sustain"
+      ]
+    },
+    "ryze": {
+      "name": "Ryze",
+      "lanes": {
+        "primary": "Mid",
+        "flex": ["Top"]
+      },
+      "playstyle": {
+        "role": ["Mage"],
+        "damage": ["AP"],
+        "combat_style": ["Teamfight", "Engage"],
+        "attributes": ["Scaling", "Global", "Range"]
+      },
+      "synergies": [
+        "Teamfight",
+        "Global",
+        "Scaling"
+      ],
+      "counters": [
+        "Mobility",
+        "Burst"
+      ]
+    },
+    "samira": {
+      "name": "Samira",
+      "lanes": {
+        "primary": "ADC",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Marksman"],
+        "damage": ["AD"],
+        "combat_style": ["Burst", "Teamfight"],
+        "attributes": ["Mobility", "Scaling"]
+      },
+      "synergies": [
+        "Engage",
+        "Teamfight",
+        "CC"
+      ],
+      "counters": [
+        "CC",
+        "Poke",
+        "Range"
+      ]
+    },
+    "sejuani": {
+      "name": "Sejuani",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Tank"],
+        "damage": ["AP"],
+        "combat_style": ["Engage", "Teamfight"],
+        "attributes": ["CC", "Scaling"]
+      },
+      "synergies": [
+        "Engage",
+        "Teamfight",
+        "CC"
+      ],
+      "counters": [
+        "Range",
+        "Poke",
+        "Mobility"
+      ]
+    },
+    "senna": {
+      "name": "Senna",
+      "lanes": {
+        "primary": "ADC",
+        "flex": ["Support"]
+      },
+      "playstyle": {
+        "role": ["Marksman", "Support"],
+        "damage": ["AD"],
+        "combat_style": ["Teamfight", "Poke", "Protect"],
+        "attributes": ["Range", "Scaling"]
+      },
+      "synergies": [
+        "Teamfight",
+        "Poke",
+        "Protect",
+        "Range",
+        "Scaling"
+      ],
+      "counters": [
+        "Mobility",
+        "Burst",
+        "Engage"
+      ]
+    },
+    "seraphine": {
+      "name": "Seraphine",
+      "lanes": {
+        "primary": "Support",
+        "flex": ["Mid", "ADC"]
+      },
+      "playstyle": {
+        "role": ["Support", "Mage"],
+        "damage": ["AP"],
+        "combat_style": ["Teamfight", "Protect", "Poke"],
+        "attributes": ["CC", "Scaling"]
+      },
+      "synergies": [
+        "Teamfight",
+        "Poke",
+        "CC"
+      ],
+      "counters": [
+        "Mobility",
+        "Burst",
+        "Engage"
+      ]
+    },
+    "sett": {
+      "name": "Sett",
+      "lanes": {
+        "primary": "Top",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Fighter", "Tank"],
+        "damage": ["AD"],
+        "combat_style": ["Engage", "Teamfight", "Skirmish"],
+        "attributes": ["Sustain", "Mid_Game"]
+      },
+      "synergies": [
+        "Engage",
+        "Teamfight",
+        "Skirmish",
+        "Mid_Game"
+      ],
+      "counters": [
+        "CC",
+        "Range",
+        "Scaling"
+      ]
+    },
+    "shaco": {
+      "name": "Shaco",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": ["Support"]
+      },
+      "playstyle": {
+        "role": ["Assassin"],
+        "damage": ["AD", "AP"],
+        "combat_style": ["Pick", "Burst", "Skirmish"],
+        "attributes": ["Mobility", "Mid_Game"]
+      },
+      "synergies": [
+        "Pick",
+        "Burst",
+        "Skirmish",
+        "Mid_Game"
+      ],
+      "counters": [
+        "CC",
+        "Teamfight",
+        "Protect"
+      ]
+    },
+    "shen": {
+      "name": "Shen",
+      "lanes": {
+        "primary": "Top",
+        "flex": ["Support"]
+      },
+      "playstyle": {
+        "role": ["Tank", "Support"],
+        "damage": ["AD", "AP"],
+        "combat_style": ["Protect", "Teamfight"],
+        "attributes": ["Global", "CC", "Mobility", "Scaling"]
+      },
+      "synergies": [
+        "Protect",
+        "Teamfight",
+        "Global"
+      ],
+      "counters": [
+        "Split_Push",
+        "Range",
+        "Sustain"
+      ]
+    },
+    "shyvana": {
+      "name": "Shyvana",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": ["Top"]
+      },
+      "playstyle": {
+        "role": ["Fighter"],
+        "damage": ["AD", "AP"],
+        "combat_style": ["Teamfight", "Skirmish", "Poke"],
+        "attributes": ["Scaling", "Range", "Mobility"]
+      },
+      "synergies": [
+        "Teamfight",
+        "Skirmish",
+        "Scaling"
+      ],
+      "counters": [
+        "CC",
+        "Pick",
+        "Mid_Game"
+      ]
+    },
+    "singed": {
+      "name": "Singed",
+      "lanes": {
+        "primary": "Top",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Tank"],
+        "damage": ["AP"],
+        "combat_style": ["Split_Push", "Teamfight", "Skirmish"],
+        "attributes": ["Mobility", "Sustain", "Mid_Game"]
+      },
+      "synergies": [
+        "Split_Push",
+        "Teamfight",
+        "Mobility"
+      ],
+      "counters": [
+        "Range",
+        "CC"
+      ]
+    },
+    "sion": {
+      "name": "Sion",
+      "lanes": {
+        "primary": "Top",
+        "flex": ["Jungle"]
+      },
+      "playstyle": {
+        "role": ["Tank"],
+        "damage": ["AD"],
+        "combat_style": ["Engage", "Teamfight"],
+        "attributes": ["CC", "Global", "Scaling"]
+      },
+      "synergies": [
+        "Engage",
+        "Teamfight",
+        "CC",
+        "Global"
+      ],
+      "counters": [
+        "Mobility",
+        "Range",
+        "Sustain"
+      ]
+    },
+    "sivir": {
+      "name": "Sivir",
+      "lanes": {
+        "primary": "ADC",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Marksman"],
+        "damage": ["AD"],
+        "combat_style": ["Poke", "Teamfight"],
+        "attributes": ["Range", "Scaling"]
+      },
+      "synergies": [
+        "Teamfight",
+        "Range",
+        "Protect"
+      ],
+      "counters": [
+        "Mobility",
+        "Burst",
+        "Engage"
+      ]
+    },
+    "skarner": {
+      "name": "Skarner",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Fighter", "Tank"],
+        "damage": ["AD"],
+        "combat_style": ["Engage", "Pick", "Skirmish", "Teamfight"],
+        "attributes": ["CC", "Mobility", "Scaling", "Mid_Game"]
+      },
+      "synergies": [
+        "Pick",
+        "CC",
+        "Skirmish"
+      ],
+      "counters": [
+        "Range",
+        "Mobility",
+        "Teamfight"
+      ]
+    },
+    "smolder": {
+      "name": "Smolder",
+      "lanes": {
+        "primary": "ADC",
+        "flex": ["Mid"]
+      },
+      "playstyle": {
+        "role": ["Marksman"],
+        "damage": ["AD"],
+        "combat_style": ["Teamfight", "Poke"],
+        "attributes": ["Range", "Scaling"]
+      },
+      "synergies": [
+        "Protect",
+        "Teamfight",
+        "Scaling"
+      ],
+      "counters": [
+        "Skirmish",
+        "Engage",
+        "Burst",
+        "Mid_Game"
+      ]
+    },
+    "sona": {
+      "name": "Sona",
+      "lanes": {
+        "primary": "Support",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Support"],
+        "damage": ["AP"],
+        "combat_style": ["Teamfight", "Poke", "Protect"],
+        "attributes": ["Scaling", "Sustain", "CC"]
+      },
+      "synergies": [
+        "Teamfight",
+        "Poke",
+        "Scaling"
+      ],
+      "counters": [
+        "Burst",
+        "Engage",
+        "Mid_Game"
+      ]
+    },
+    "soraka": {
+      "name": "Soraka",
+      "lanes": {
+        "primary": "Support",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Support"],
+        "damage": ["AP"],
+        "combat_style": ["Protect", "Poke", "Teamfight"],
+        "attributes": ["Sustain", "Global", "Scaling"]
+      },
+      "synergies": [
+        "Teamfight",
+        "Sustain",
+        "Poke"
+      ],
+      "counters": [
+        "CC",
+        "Burst",
+        "Engage"
+      ]
+    },
+    "swain": {
+      "name": "Swain",
+      "lanes": {
+        "primary": "Support",
+        "flex": ["Mid", "Top"]
+      },
+      "playstyle": {
+        "role": ["Mage", "Tank"],
+        "damage": ["AP"],
+        "combat_style": ["Teamfight", "Skirmish", "Pick"],
+        "attributes": ["Sustain", "Scaling", "CC"]
+      },
+      "synergies": [
+        "Teamfight",
+        "CC",
+        "Engage",
+        "Sustain",
+        "Scaling"
+      ],
+      "counters": [
+        "Mobility",
+        "Range",
+        "Mid_Game"
+      ]
+    },
+    "sylas": {
+      "name": "Sylas",
+      "lanes": {
+        "primary": "Mid",
+        "flex": ["Jungle"]
+      },
+      "playstyle": {
+        "role": ["Assassin"],
+        "damage": ["AP"],
+        "combat_style": ["Skirmish", "Teamfight"],
+        "attributes": ["Mobility", "Sustain", "Scaling"]
+      },
+      "synergies": [
+        "Skirmish",
+        "Teamfight",
+        "CC"
+      ],
+      "counters": [
+        "CC",
+        "Range",
+        "Mid_Game"
+      ]
+    },
+    "syndra": {
+      "name": "Syndra",
+      "lanes": {
+        "primary": "Mid",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Mage", "Assassin"],
+        "damage": ["AP"],
+        "combat_style": ["Pick", "Burst", "Skirmish", "Teamfight"],
+        "attributes": ["Range", "CC", "Scaling"]
+      },
+      "synergies": [
+        "Pick",
+        "CC",
+        "Burst"
+      ],
+      "counters": [
+        "Mobility",
+        "Engage",
+        "Sustain"
+      ]
+    },
+    "tahm_kench": {
+      "name": "Tahm Kench",
+      "lanes": {
+        "primary": "Support",
+        "flex": ["Top"]
+      },
+      "playstyle": {
+        "role": ["Tank", "Support"],
+        "damage": ["AP"],
+        "combat_style": ["Protect", "Teamfight"],
+        "attributes": ["CC", "Sustain", "Scaling"]
+      },
+      "synergies": [
+        "Protect",
+        "Teamfight",
+        "CC"
+      ],
+      "counters": [
+        "Range",
+        "Poke",
+        "Split_Push"
+      ]
+    },
+    "taliyah": {
+      "name": "Taliyah",
+      "lanes": {
+        "primary": "Mid",
+        "flex": ["Jungle"]
+      },
+      "playstyle": {
+        "role": ["Mage"],
+        "damage": ["AP"],
+        "combat_style": ["Pick", "Teamfight", "Skirmish"],
+        "attributes": ["Global", "Range", "CC", "Scaling"]
+      },
+      "synergies": [
+        "Pick",
+        "Global",
+        "Teamfight",
+        "Skirmish",
+        "CC"
+      ],
+      "counters": [
+        "Mobility",
+        "Engage",
+        "Burst"
+      ]
+    },
+    "talon": {
+      "name": "Talon",
+      "lanes": {
+        "primary": "Mid",
+        "flex": ["Jungle"]
+      },
+      "playstyle": {
+        "role": ["Assassin"],
+        "damage": ["AD"],
+        "combat_style": ["Pick", "Burst", "Skirmish"],
+        "attributes": ["Mobility", "Burst", "Scaling"]
+      },
+      "synergies": [
+        "Burst",
+        "Pick",
+        "Mobility"
+      ],
+      "counters": [
+        "CC",
+        "Teamfight",
+        "Sustain"
+      ]
+    },
+    "taric": {
+      "name": "Taric",
+      "lanes": {
+        "primary": "Support",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Tank", "Support"],
+        "damage": ["AP"],
+        "combat_style": ["Protect", "Teamfight"],
+        "attributes": ["CC", "Scaling", "Mid_Game"]
+      },
+      "synergies": [
+        "Protect",
+        "Teamfight",
+        "CC"
+      ],
+      "counters": [
+        "Range",
+        "Poke"
+      ]
+    },
+    "teemo": {
+      "name": "Teemo",
+      "lanes": {
+        "primary": "Top",
+        "flex": ["Support"]
+      },
+      "playstyle": {
+        "role": ["Marksman"],
+        "damage": ["AP"],
+        "combat_style": ["Split_Push", "Poke", "Skirmish"],
+        "attributes": ["Range", "CC", "Mid_Game"]
+      },
+      "synergies": [
+        "Split_Push",
+        "Poke",
+        "CC"
+      ],
+      "counters": [
+        "Engage",
+        "Sustain",
+        "Mobility"
+      ]
+    },
+    "thresh": {
+      "name": "Thresh",
+      "lanes": {
+        "primary": "Support",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Tank", "Mage"],
+        "damage": ["AP"],
+        "combat_style": ["Pick", "Protect", "Engage", "Teamfight", "Skirmish"],
+        "attributes": ["CC", "Mobility", "Mid_Game", "Scaling"]
+      },
+      "synergies": [
+        "Engage",
+        "Pick",
+        "CC"
+      ],
+      "counters": [
+        "Range",
+        "Poke",
+        "Sustain"
+      ]
+    },
+    "tristana": {
+      "name": "Tristana",
+      "lanes": {
+        "primary": "ADC",
+        "flex": ["Mid"]
+      },
+      "playstyle": {
+        "role": ["Marksman"],
+        "damage": ["AD"],
+        "combat_style": ["Teamfight", "Skirmish", "Burst"],
+        "attributes": ["Range", "Mobility", "Scaling"]
+      },
+      "synergies": [
+        "Range",
+        "Burst",
+        "Teamfight"
+      ],
+      "counters": [
+        "Engage",
+        "Poke",
+        "CC"
+      ]
+    },
+    "trundle": {
+      "name": "Trundle",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": ["Top"]
+      },
+      "playstyle": {
+        "role": ["Tank", "Fighter"],
+        "damage": ["AD"],
+        "combat_style": ["Skirmish", "Split_Push"],
+        "attributes": ["Sustain", "CC", "Scaling", "Mobility"]
+      },
+      "synergies": [
+        "Skirmish",
+        "Engage",
+        "CC"
+      ],
+      "counters": [
+        "Range",
+        "Mobility"
+      ]
+    },
+    "tryndamere": {
+      "name": "Tryndamere",
+      "lanes": {
+        "primary": "Top",
+        "flex": ["Jungle", "Mid"]
+      },
+      "playstyle": {
+        "role": ["Fighter"],
+        "damage": ["AD"],
+        "combat_style": ["Split_Push", "Skirmish"],
+        "attributes": ["Mobility", "Sustain", "Scaling"]
+      },
+      "synergies": [
+        "Split_Push",
+        "Skirmish",
+        "Pick"
+      ],
+      "counters": [
+        "CC",
+        "Teamfight",
+        "Range"
+      ]
+    },
+    "twisted_fate": {
+      "name": "Twisted Fate",
+      "lanes": {
+        "primary": "Mid",
+        "flex": ["Top"]
+      },
+      "playstyle": {
+        "role": ["Mage"],
+        "damage": ["AP"],
+        "combat_style": ["Skirmish", "Pick"],
+        "attributes": ["CC", "Global", "Range", "Scaling"]
+      },
+      "synergies": [
+        "Global",
+        "Pick",
+        "Skirmish"
+      ],
+      "counters": [
+        "Engage",
+        "Mobility",
+        "Burst"
+      ]
+    },
+    "twitch": {
+      "name": "Twitch",
+      "lanes": {
+        "primary": "ADC",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Marksman"],
+        "damage": ["AD"],
+        "combat_style": ["Pick", "Teamfight"],
+        "attributes": ["Range", "Scaling"]
+      },
+      "synergies": [
+        "Pick",
+        "Teamfight",
+        "Scaling"
+      ],
+      "counters": [
+        "Engage",
+        "Burst",
+        "Skirmish",
+        "Mid_Game"
+      ]
+    },
+    "udyr": {
+      "name": "Udyr",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": ["Top"]
+      },
+      "playstyle": {
+        "role": ["Fighter"],
+        "damage": ["AD"],
+        "combat_style": ["Skirmish", "Split_Push"],
+        "attributes": ["Mobility", "Sustain", "CC", "Scaling"]
+      },
+      "synergies": [
+        "Skirmish",
+        "Split_Push",
+        "Mobility"
+      ],
+      "counters": [
+        "Range",
+        "Teamfight",
+        "CC"
+      ]
+    },
+    "urgot": {
+      "name": "Urgot",
+      "lanes": {
+        "primary": "Top",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Fighter"],
+        "damage": ["AD"],
+        "combat_style": ["Skirmish", "Teamfight"],
+        "attributes": ["Range", "Scaling"]
+      },
+      "synergies": [
+        "Skirmish",
+        "Teamfight",
+        "Range"
+      ],
+      "counters": [
+        "CC",
+        "Mobility",
+        "Burst"
+      ]
+    },
+    "varus": {
+      "name": "Varus",
+      "lanes": {
+        "primary": "ADC",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Marksman"],
+        "damage": ["AD", "AP"],
+        "combat_style": ["Poke", "Pick", "Teamfight"],
+        "attributes": ["Range", "CC", "Scaling"]
+      },
+      "synergies": [
+        "Poke",
+        "Pick",
+        "CC"
+      ],
+      "counters": [
+        "Mobility",
+        "Burst",
+        "Engage"
+      ]
+    },
+    "vayne": {
+      "name": "Vayne",
+      "lanes": {
+        "primary": "ADC",
+        "flex": ["Top"]
+      },
+      "playstyle": {
+        "role": ["Marksman"],
+        "damage": ["AD"],
+        "combat_style": ["Teamfight", "Skirmish"],
+        "attributes": ["CC", "Sustain", "Scaling"]
+      },
+      "synergies": [
+        "Teamfight",
+        "Skirmish",
+        "Protect",
+        "Scaling"
+      ],
+      "counters": [
+        "Range",
+        "Poke"
+      ]
+    },
+    "veigar": {
+      "name": "Veigar",
+      "lanes": {
+        "primary": "Mid",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Mage"],
+        "damage": ["AP"],
+        "combat_style": ["Teamfight", "Burst"],
+        "attributes": ["CC", "Scaling", "Range"]
+      },
+      "synergies": [
+        "CC",
+        "Burst",
+        "Scaling"
+      ],
+      "counters": [
+        "Mobility",
+        "Engage",
+        "Mid_Game"
+      ]
+    },
+    "vel_koz": {
+      "name": "Vel'Koz",
+      "lanes": {
+        "primary": "Mid",
+        "flex": ["Support"]
+      },
+      "playstyle": {
+        "role": ["Mage"],
+        "damage": ["AP"],
+        "combat_style": ["Poke", "Burst", "Teamfight"],
+        "attributes": ["Range", "CC", "Scaling"]
+      },
+      "synergies": [
+        "Poke",
+        "Burst",
+        "CC"
+      ],
+      "counters": [
+        "Engage",
+        "Mobility",
+        "Sustain"
+      ]
+    },
+    "vex": {
+      "name": "Vex",
+      "lanes": {
+        "primary": "Mid",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Mage", "Assassin"],
+        "damage": ["AP"],
+        "combat_style": ["Burst", "Pick", "Skirmish"],
+        "attributes": ["CC", "Range", "Scaling"]
+      },
+      "synergies": [
+        "CC",
+        "Pick",
+        "Burst"
+      ],
+      "counters": [
+        "Sustain",
+        "Range"
+      ]
+    },
+    "vi": {
+      "name": "Vi",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": ["Top"]
+      },
+      "playstyle": {
+        "role": ["Fighter"],
+        "damage": ["AD"],
+        "combat_style": ["Engage", "Pick", "Skirmish", "Teamfight"],
+        "attributes": ["Mobility", "CC", "Scaling"]
+      },
+      "synergies": [
+        "Engage",
+        "Pick",
+        "CC"
+      ],
+      "counters": [
+        "Range",
+        "Teamfight",
+        "Sustain"
+      ]
+    },
+    "viego": {
+      "name": "Viego",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": ["Mid"]
+      },
+      "playstyle": {
+        "role": ["Assassin", "Fighter"],
+        "damage": ["AD"],
+        "combat_style": ["Engage", "Skirmish", "Teamfight"],
+        "attributes": ["Mobility", "Scaling", "Sustain"]
+      },
+      "synergies": [
+        "Skirmish",
+        "Teamfight",
+        "Mobility"
+      ],
+      "counters": [
+        "CC",
+        "Range"
+      ]
+    },
+    "viktor": {
+      "name": "Viktor",
+      "lanes": {
+        "primary": "Mid",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Mage"],
+        "damage": ["AP"],
+        "combat_style": ["Teamfight", "Poke"],
+        "attributes": ["Scaling", "Range", "CC"]
+      },
+      "synergies": [
+        "Teamfight",
+        "Poke",
+        "Scaling"
+      ],
+      "counters": [
+        "Mobility",
+        "Engage"
+      ]
+    },
+    "vladimir": {
+      "name": "Vladimir",
+      "lanes": {
+        "primary": "Mid",
+        "flex": ["Top"]
+      },
+      "playstyle": {
+        "role": ["Mage"],
+        "damage": ["AP"],
+        "combat_style": ["Teamfight", "Skirmish"],
+        "attributes": ["Sustain", "Scaling"]
+      },
+      "synergies": [
+        "Teamfight",
+        "Scaling"
+      ],
+      "counters": [
+        "CC",
+        "Burst",
+        "Mid_Game"
+      ]
+    },
+    "volibear": {
+      "name": "Volibear",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": ["Top"]
+      },
+      "playstyle": {
+        "role": ["Fighter", "Tank"],
+        "damage": ["AD", "AP"],
+        "combat_style": ["Engage", "Teamfight"],
+        "attributes": ["Sustain", "CC", "Scaling"]
+      },
+      "synergies": [
+        "Engage",
+        "Teamfight",
+        "CC"
+      ],
+      "counters": [
+        "Mobility",
+        "Range"
+      ]
+    },
+    "warwick": {
+      "name": "Warwick",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": ["Top"]
+      },
+      "playstyle": {
+        "role": ["Fighter"],
+        "damage": ["AD"],
+        "combat_style": ["Engage", "Pick", "Skirmish"],
+        "attributes": ["Mobility", "Sustain", "CC", "Scaling"]
+      },
+      "synergies": [
+        "Skirmish",
+        "Pick",
+        "CC"
+      ],
+      "counters": [
+        "CC",
+        "Range",
+        "Teamfight"
+      ]
+    },
+    "wukong": {
+      "name": "Wukong",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": ["Top"]
+      },
+      "playstyle": {
+        "role": ["Fighter"],
+        "damage": ["AD"],
+        "combat_style": ["Engage", "Teamfight", "Skirmish"],
+        "attributes": ["Mobility", "CC", "Scaling"]
+      },
+      "synergies": [
+        "Engage",
+        "Teamfight",
+        "CC"
+      ],
+      "counters": [
+        "Mobility",
+        "Range"
+      ]
+    },
+    "xayah": {
+      "name": "Xayah",
+      "lanes": {
+        "primary": "ADC",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Marksman"],
+        "damage": ["AD"],
+        "combat_style": ["Teamfight", "Skirmish"],
+        "attributes": ["Sustain", "CC", "Scaling"]
+      },
+      "synergies": [
+        "Teamfight",
+        "Burst",
+        "CC"
+      ],
+      "counters": [
+        "Engage",
+        "Mobility",
+        "Range"
+      ]
+    },
+    "xerath": {
+      "name": "Xerath",
+      "lanes": {
+        "primary": "Mid",
+        "flex": ["Support"]
+      },
+      "playstyle": {
+        "role": ["Mage"],
+        "damage": ["AP"],
+        "combat_style": ["Poke", "Burst", "Teamfight"],
+        "attributes": ["Range", "CC", "Scaling"]
+      },
+      "synergies": [
+        "Poke",
+        "Burst",
+        "Range"
+      ],
+      "counters": [
+        "Mobility",
+        "Engage"
+      ]
+    },
+    "xin_zhao": {
+      "name": "Xin Zhao",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Fighter"],
+        "damage": ["AD"],
+        "combat_style": ["Skirmish", "Engage", "Pick"],
+        "attributes": ["Mid_Game", "CC", "Mobility", "Scaling"]
+      },
+      "synergies": [
+        "Skirmish",
+        "Pick",
+        "Mid_Game"
+      ],
+      "counters": [
+        "Range",
+        "Teamfight",
+        "Scaling"
+      ]
+    },
+    "yasuo": {
+      "name": "Yasuo",
+      "lanes": {
+        "primary": "Mid",
+        "flex": ["Top"]
+      },
+      "playstyle": {
+        "role": ["Fighter"],
+        "damage": ["AD"],
+        "combat_style": ["Teamfight", "Skirmish"],
+        "attributes": ["Mobility", "Scaling", "CC"]
+      },
+      "synergies": [
+        "Teamfight",
+        "Skirmish",
+        "CC"
+      ],
+      "counters": [
+        "Range",
+        "CC"
+      ]
+    },
+    "yone": {
+      "name": "Yone",
+      "lanes": {
+        "primary": "Mid",
+        "flex": ["Top"]
+      },
+      "playstyle": {
+        "role": ["Assassin", "Fighter"],
+        "damage": ["AD"],
+        "combat_style": ["Teamfight", "Skirmish"],
+        "attributes": ["Mobility", "Scaling"]
+      },
+      "synergies": [
+        "Teamfight",
+        "Skirmish", 
+        "Mobility"
+      ],
+      "counters": [
+        "CC",
+        "Range"
+      ]
+    },
+    "yorick": {
+      "name": "Yorick",
+      "lanes": {
+        "primary": "Top",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Fighter"],
+        "damage": ["AD"],
+        "combat_style": ["Split_Push", "Teamfight", "Skirmish"],
+        "attributes": ["Sustain", "Scaling"]
+      },
+      "synergies": [
+        "Split_Push",
+        "Teamfight",
+        "Skirmish",
+        "Scaling"
+      ],
+      "counters": [
+        "Teamfight",
+        "Range",
+        "CC"
+      ]
+    },
+    "yunara": {
+      "name": "Yunara",
+      "lanes": {
+        "primary": "ADC",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Marksman"],
+        "damage": ["AD"],
+        "combat_style": ["Teamfight", "Poke"],
+        "attributes": ["Scaling", "Range", "Mobility"]
+      },
+      "synergies": [
+        "Protect",
+        "Teamfight",
+        "CC"
+      ],
+      "counters": [
+        "Engage",
+        "Burst",
+        "Mobility"
+      ]
+    },
+    "yuumi": {
+      "name": "Yuumi",
+      "lanes": {
+        "primary": "Support",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Support", "Mage"],
+        "damage": ["AP"],
+        "combat_style": ["Protect", "Poke", "Teamfight"],
+        "attributes": ["Sustain", "CC", "Scaling"]
+      },
+      "synergies": [
+        "Protect",
+        "Teamfight",
+        "Scaling"
+      ],
+      "counters": [
+        "Burst",
+        "Engage",
+        "Mid_Game"
+      ]
+    },
+    "zac": {
+      "name": "Zac",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": ["Top"]
+      },
+      "playstyle": {
+        "role": ["Tank"],
+        "damage": ["AP"],
+        "combat_style": ["Engage", "Teamfight", "Skirmish"],
+        "attributes": ["CC", "Sustain", "Mobility", "Scaling"]
+      },
+      "synergies": [
+        "Engage",
+        "Teamfight",
+        "CC"
+      ],
+      "counters": [
+        "Sustain",
+        "Range"
+      ]
+    },
+    "zed": {
+      "name": "Zed",
+      "lanes": {
+        "primary": "Mid",
+        "flex": ["Jungle"]
+      },
+      "playstyle": {
+        "role": ["Assassin"],
+        "damage": ["AD"],
+        "combat_style": ["Pick", "Burst", "Skirmish"],
+        "attributes": ["Mobility", "Mid_Game"]
+      },
+      "synergies": [
+        "Pick",
+        "Burst",
+        "Mobility"
+      ],
+      "counters": [
+        "CC",
+        "Teamfight",
+        "Protect"
+      ]
+    },
+    "zeri": {
+      "name": "Zeri",
+      "lanes": {
+        "primary": "ADC",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Marksman"],
+        "damage": ["AD"],
+        "combat_style": ["Teamfight", "Skirmish"],
+        "attributes": ["Mobility", "Scaling"]
+      },
+      "synergies": [
+        "Teamfight",
+        "Mobility",
+        "Scaling"
+      ],
+      "counters": [
+        "Engage",
+        "Burst",
+        "CC"
+      ]
+    },
+    "ziggs": {
+      "name": "Ziggs",
+      "lanes": {
+        "primary": "ADC",
+        "flex": ["Mid"]
+      },
+      "playstyle": {
+        "role": ["Mage"],
+        "damage": ["AP"],
+        "combat_style": ["Poke", "Teamfight"],
+        "attributes": ["Range", "Scaling"]
+      },
+      "synergies": [
+        "Poke",
+        "Range",
+        "Teamfight"
+      ],
+      "counters": [
+        "Engage",
+        "Mobility"
+      ]
+    },
+    "zilean": {
+      "name": "Zilean",
+      "lanes": {
+        "primary": "Support",
+        "flex": ["Mid"]
+      },
+      "playstyle": {
+        "role": ["Support", "Mage"],
+        "damage": ["AP"],
+        "combat_style": ["Protect", "Poke", "Teamfight"],
+        "attributes": ["CC", "Scaling", "Mid_Game"]
+      },
+      "synergies": [
+        "Protect",
+        "CC",
+        "Teamfight",
+        "Scaling"
+      ],
+      "counters": [
+        "Burst",
+        "Engage"
+      ]
+    },
+    "zoe": {
+      "name": "Zoe",
+      "lanes": {
+        "primary": "Mid",
+        "flex": []
+      },
+      "playstyle": {
+        "role": ["Mage", "Assassin"],
+        "damage": ["AP"],
+        "combat_style": ["Burst", "Poke", "Pick", "Skirmish"],
+        "attributes": ["Range", "CC", "Scaling"]
+      },
+      "synergies": [
+        "Burst",
+        "Pick",
+        "CC"
+      ],
+      "counters": [
+        "Engage",
+        "Mobility"
+      ]
+    },
+    "zyra": {
+      "name": "Zyra",
+      "lanes": {
+        "primary": "Jungle",
+        "flex": ["Mid", "Support"]
+      },
+      "playstyle": {
+        "role": ["Mage"],
+        "damage": ["AP"],
+        "combat_style": ["Poke", "Teamfight", "Skirmish"],
+        "attributes": ["CC", "Scaling"]
+      },
+      "synergies": [
+        "Teamfight",
+        "Poke",
+        "CC"
+      ],
+      "counters": [
+        "Mobility",
+        "Burst",
+        "Engage"
+      ]
+    }
+  }
+}
